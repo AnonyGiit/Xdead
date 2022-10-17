@@ -1,6 +1,3 @@
-`dead-instrument` is the instrumenter used in [DEAD](https://github.com/DeadCodeProductions/dead).
-
-
 #### Build
 
 Prerequisites: `cmake`, `make`, `clang/llvm` 13.
