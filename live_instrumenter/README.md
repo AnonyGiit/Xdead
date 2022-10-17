@@ -24,33 +24,4 @@ int foo(int a) {
 }
 
 
-dead-instrument test.c --
-
-
-cat test.c
-void DCEMarker0_(void);
-void DCEMarker1_(void);
-void DCEMarker2_(void);
-int foo(int a) {
-  if (a == 0) {
-    DCEMarker0_();
-    return 1;
-  } else {
-    DCEMarker1_();
-    a = 5;
-  }
-  DCEMarker2_();
-
-  return a;
-}
-```
-
-
-
-#### Python wrapper
-
-`pip install dead-instrumenter`
-
-
-To use the instrumenter in python import `from dead_instrumenter.instrumenter import instrument_program`. 
-Calling `instrument_program(filename: Path) -> str` will instrument `filename` at the file-level and return the prefix for the markers (default: `DCEMarker`).
+live-instrument test.c --
