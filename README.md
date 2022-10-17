@@ -11,4 +11,4 @@ Description of current published code:
 * `test-main/pydot-test-main.py` is the main python script used to construct test programs and perform compiler testing
 * `test-main/se-confirm-v3.py` is the main python script used to perform binary symbolic execution with `Angr`
 
-**Please kindly note that we will provide a more detailed set-up tutorial and usage of `DivGen` after acceptance. Thanks.**
+### **Please kindly note that we will provide a more detailed set-up tutorial and usage of `DivGen` after acceptance. Thank you very much!**
