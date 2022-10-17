@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDeadInstrumentlib.a CMakeFiles/DeadInstrumentlib.dir/DeadInstrumenter.cpp.o
+/usr/bin/ranlib libDeadInstrumentlib.a

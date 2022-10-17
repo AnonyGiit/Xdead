@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/DeadInstrumenter.hpp
+clang/ASTMatchers/ASTMatchFinder.h
+-
+clang/Basic/SourceLocation.h
+-
+clang/Basic/SourceManager.h
+-
+clang/Tooling/Core/Replacement.h
+-
+clang/Tooling/Transformer/RewriteRule.h
+-
+clang/Tooling/Transformer/Stencil.h
+-
+
+/home/haoxin/disk-dut/research/github/dead_instrumenter/src/tool/DeadInstrument.cpp
+clang/Frontend/TextDiagnosticPrinter.h
+-
+clang/Rewrite/Core/Rewriter.h
+-
+clang/Tooling/CommonOptionsParser.h
+-
+clang/Tooling/Refactoring.h
+-
+type_traits
+-
+DeadInstrumenter.hpp
+-
+

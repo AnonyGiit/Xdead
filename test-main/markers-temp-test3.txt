@@ -1,0 +1,5 @@
+  414a04:	e8 d7 ff ff ff       	callq  4149e0 <marker_10000>
+  414b4a:	e8 f1 c5 fe ff       	callq  401140 <marker_0>
+  414b4f:	e8 fc c5 fe ff       	callq  401150 <marker_1>
+  414b60:	e8 cb ea fe ff       	callq  403630 <marker_591>
+  414b79:	e8 72 fe ff ff       	callq  4149f0 <marker_19999>

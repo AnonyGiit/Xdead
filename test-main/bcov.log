@@ -1,0 +1,4 @@
+I | call graph built successfully
+I | elf section <.gcc_except_table> not found
+I | fde refers to a nonstatic function @ 401020
+I | eh_frame function count 5009 while static function count 5015
