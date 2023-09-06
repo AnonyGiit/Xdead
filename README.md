@@ -1,4 +1,4 @@
-# DivGen
+# Xdead
 
 Welcome to the homepage of `Xdead`, which is a tool implemented in `Beyond a Joke: Dead Code Elimination Can Eliminate Live Code (Under Review)`
 
