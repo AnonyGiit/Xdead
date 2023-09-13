@@ -1,4 +1,4 @@
-#### Build
+#### Building
 
 Prerequisites: `cmake`, `make`, `clang/llvm` 13.
 
