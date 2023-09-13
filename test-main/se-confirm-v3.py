@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import angr
-# from angrutils import *
 import os
 import subprocess
 import claripy
