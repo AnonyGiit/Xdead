@@ -4,7 +4,6 @@
 A tool for efficient binary-level coverage analysis. **bcov** statically
 instruments x86-64 ELF binaries without compiler support. It features probe
 pruning, precise CFG analyses, and sophisticated instrumentation techniques.
-We summarized this research in a 2-min teaser [video][link-teaser].
 
 ## Resources
 
