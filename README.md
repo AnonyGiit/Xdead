@@ -12,3 +12,7 @@ Description of current published code:
 * `test-main/se-confirm-v3.py` is the main python script used to perform binary symbolic execution with `Angr`
 
 **Please kindly note that we will provide a more detailed set-up tutorial and usage of `Xdead` if the paper fortunately gets accepted.**
+
+
+### Notice: The final release will be published on https://github.com/haoxintu/Xdead.
+
